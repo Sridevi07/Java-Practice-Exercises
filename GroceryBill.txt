@@ -1,39 +1,33 @@
 package iphone;
-
 import java.util.Scanner;
 
 public class groceryList {
   public static void main(String[] args) {
-	
-int milk, bread, eggs;
-float milkCost, breadCost, EggsCost, groceryBill;
+     int milk, bread, eggs;
+     float milkCost, breadCost, EggsCost, groceryBill;
 
-Scanner Keyboard = new Scanner(System.in);
+     Scanner Keyboard = new Scanner(System.in);
 
-System.out.println("How many milk?");
-milk = Keyboard.nextInt();
+     System.out.println("How many milk?");
+     milk = Keyboard.nextInt();
 
-System.out.println("How many bread?");
-bread = Keyboard.nextInt();
+     System.out.println("How many bread?");
+     bread = Keyboard.nextInt();
 
-System.out.println("How many eggs?");
-eggs = Keyboard.nextInt();
+     System.out.println("How many eggs?");
+     eggs = Keyboard.nextInt();
 
-System.out.println("How much does one milk cost?");
-milkCost = Keyboard.nextFloat();
+     System.out.println("How much does one milk cost?");
+     milkCost = Keyboard.nextFloat();
 
-System.out.println("How much does bread milk cost?");
-breadCost = Keyboard.nextFloat();
+     System.out.println("How much does bread milk cost?");
+     breadCost = Keyboard.nextFloat();
 
-System.out.println("How much does EggsCost1 milk cost?");
-EggsCost = Keyboard.nextFloat();
+     System.out.println("How much does EggsCost1 milk cost?");
+     EggsCost = Keyboard.nextFloat();
 
-groceryBill = (milk * milkCost) +(bread * breadCost) + (eggs * EggsCost);
+     groceryBill = (milk * milkCost) +(bread * breadCost) + (eggs * EggsCost);
 
-System.out.print("Calculating your grocery bill.\n Your total cost is "+ groceryBill);
-
-	}
-
-}
-
+     System.out.print("Calculating your grocery bill.\n Your total cost is "+ groceryBill);
+  }
 }
